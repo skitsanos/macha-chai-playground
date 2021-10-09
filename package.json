@@ -1,0 +1,14 @@
+{
+  "name": "demo-unit-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha ./tests/**/*.test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "istanbul": "^0.4.5",
+    "mocha": "^9.1.2"
+  }
+}
